@@ -1,0 +1,434 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+	/* header section */
+
+header{
+	width: 100%;
+	float: left;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+}
+.logo{
+	width: 13%;
+	float: left;
+}
+.logo img{
+	width: 150px;
+}
+.name{
+	width: 12%;
+	float: left;
+}
+.name h1{
+	margin: 24px 0px 0px -24px;
+	color: #46c546;
+} 
+.menu{
+	width: 56%;
+	float: left;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline-block;
+    	margin: 32px 6px 0px 12px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #6f6868;
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+}
+.social{
+	width: 19%;
+    	float: left;
+    	height: 50px;
+    	margin: -9px 0px 0px -25px;
+}
+.social ul{
+	
+}
+.social ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 43px 0px 0px 2px;	
+}
+.fa.fa-facebook{
+	background-color: #0A7FEC;
+	color: white;
+	padding: 5px 9px 5px 9px;
+}
+.fa.fa-twitter{
+	background-color: #1DA1F2;
+	color: white;
+	padding: 5px;
+}
+.fa.fa-linkedin{
+	background-color: #0174D0;
+	color: white;
+	padding: 5px 7px 5px 6px;
+}
+.fa.fa-google-plus{
+	background-color: #DD5144;
+	color: white;
+	padding: 5px 3px 5px 4px;
+}
+.fa.fa-sign-in {
+    	color: black;
+    	font-size: 19px;
+}
+
+	/* Home section */
+
+.home{
+	width: 100%;
+	float: left;
+	background:url(../img/bdbg.jpg);
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 86px 0px 0px 0px;
+}
+.home-one{
+    	background-color: #6676a069;
+    	height: 250px;
+    	margin: 50px 553px 20px 126px;   
+}
+h2{
+	font-size: xx-large;
+    	color: #f30407;
+    	padding: 28px 10px 20px 10px;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;	
+}
+h4{
+    	font-size: medium;
+    	color: ghostwhite;
+    	padding: 0px 10px 0px 10px;
+    	text-align: center;
+}
+input{
+	width: 150px;
+    	height: 30px;
+    	border-radius: 3px;
+    	background-color: #07b309;
+    	margin: 20px -45px 20px 66px;
+	color: white;
+	border: 1px solid green;	
+}
+input:hover{
+	cursor: pointer;
+}
+	/* Passport Section */
+
+.passport{
+	width: 100%;
+	float: left;
+}
+.passport-one{
+	width: 25%;
+	float: left;
+}
+.passport-one ul li{
+	list-style: none;
+	font-size: xxx-large;
+	margin: 50px 20px 20px 120px;
+}
+.fa.fa-check{
+	background-color: #6878D3;
+	color: white;
+	border-radius: 50%;
+	font-size: 30px;
+	padding: 10px;
+}
+.passport-two{
+	width: 25%;
+	float: left;
+}
+.fa.fa-map-marker{
+	background-color: #059489;
+	color: white;
+	border-radius: 90%;
+	font-size: 30px;
+	padding: 10px;
+}
+.passport-three{
+	width: 25%;
+	float: left;
+}
+.fa.fa-money{
+	background-color: #49B04F;
+	color: white;
+	border-radius: 50%;
+	font-size: 30px;
+	padding: 10px;
+}
+.passport-four{
+	width: 25%;
+	float: left;
+}
+.fa.fa-user-plus{
+	background-color: #93E361;
+	color: white;
+	border-radius: 50%;
+	padding: 10px;
+	font-size: 30px;
+}
+h3{
+	font-size: x-large;
+    	padding: 0px 10px 0px 10px;
+    	text-align: center;
+}
+.passport5{
+    	color: black;
+    	text-align: justify;
+    	margin: 20px 10px 20px 10px;
+}
+.passport-two ul li{
+	list-style: none;
+	font-size: xxx-large;
+	margin: 50px 20px 20px 120px;
+}
+.passport-three ul li{
+	list-style: none;
+	font-size: xxx-large;
+	margin: 50px 20px 20px 120px;
+}
+.passport-four ul li{
+	list-style: none;
+	font-size: xxx-large;
+	margin: 50px 20px 20px 120px;
+}
+
+	/* District Section */
+
+.district{
+	width: 100%;
+	float: left;
+}
+.district-one{
+	width: 50%;
+	float: left;
+}
+.dis-one {
+    	background-color: #B8CCD5;
+    	height: 300px;
+   	margin: 20px 70px 20px 68px;
+}
+.district-two{
+	width: 50%;
+	float: left;
+}
+.dis-two{
+    	background-color: #B8CCD5;
+    	height: 300px;
+    	margin: 20px 70px 20px 70px;
+}
+.place-one{
+	padding: 50px 50px 0px 50px;
+}
+.fa.fa-dot-circle-o{
+	color: green;
+	font-size: 13px;
+}
+.district-one li{
+	list-style: none;
+	margin: 30px 0px -22px 58px;
+}
+.btn-one{
+	width: 150px;
+    	height: 30px;
+   	border-radius: 3px;
+    	background-color: #07b309;
+    	margin: 51px -45px 20px 59px;
+    	color: white;
+}
+.btn-one:hover{
+	cursor: pointer;
+}
+.district-two li{
+	list-style: none;
+	margin: 30px 0px -22px 58px;
+}
+
+	/* Tourist Section */
+
+.tourist-place{
+	width: 100%;
+	float: left;
+}	
+.tour {
+    text-align: center;
+    color: #375A5C;
+}
+.tour-one{
+	width: 50%;
+	float: left;
+}
+.tour-font1{
+	color: #375A5C;
+	margin: 20px 20px 20px -34px;
+	font-size: large;
+}
+.tour-two{
+	width: 50%;
+	float: left;
+}
+.tour-font2{
+	color: #375A5C;
+	margin: 20px 39px 20px -10px;
+	font-size: large;
+}
+.tour-font3{
+	margin: 20px 106px 20px 69px;
+	font-size: small;
+}
+.tour-font4{
+	margin: 20px 106px 20px 71px;
+	font-size: small;
+}
+.tour-btn1{
+    	width: 95px;
+    	height: 25px;
+    	margin: 1px 20px 2px 69px;
+	border-radius: 2px;
+}
+.tour-btn2{
+    	width: 95px;
+    	height: 25px;
+    	margin: 1px 20px 2px 69px;
+	border-radius: 2px;
+}
+
+	/* Hotel Section */
+
+.hotel{
+	width: 100%;
+	float: left;
+	background-color: #80808063;
+    	margin: 40px 0px 20px 0px;	
+}
+.hotel2{
+	text-align: center;
+	padding: 3px;
+}
+.hotel1{
+    	padding: 20px 0px 20px 0px;
+}
+
+	/* Icon */
+
+.icon{
+	width: 100%;
+	float: left;
+}
+.fa.fa-star{
+	color: #02B176;
+	font-size: 25px;	
+}
+.icon2{
+	text-align: center;
+}
+.icon3{
+	text-align: center;
+}
+.fa.fa-star-o{
+	background-color: #8FCE54;
+	color: white;
+	padding: 4px;
+	margin: 5px 0px 5px 0px;
+}
+.icon3 li{
+	display: inline-block;
+}
+.icon4 .fa.fa-star-o{
+	background-color: #A0A0A0;
+}
+.icon5{
+	text-align: center;
+	font-size: x-small;
+	margin: 0px 0px 25px 0px;
+}
+
+	/* Logo */
+
+.logo1{
+	width: 100%;
+	float: left;
+	background-color: #808080;
+}
+.logo2{
+	text-align: center;
+	color: white;
+	margin: 20px 20px 0px 20px;
+}
+.logo3{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin: -15px 0px 0px 0px
+}
+.logo8{
+	height: 150px;
+	margin: -15px 0px 0px 0px;
+}
+.logo9{
+	margin: -40px 0px 16px 0px;
+	color: black;
+}
+.logo4{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin: -15px 0px 0px 0px
+}
+.logo5{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin: -15px 0px 0px 0px
+}
+.logo6{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin: -15px 0px 0px 0px
+}
+.logo7{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin: -15px 0px 0px 0px
+}
+
+	/* Contacts Section */
+
+.contacts{
+	width: 100%;
+	float: left;
+	background-color: #062E3A;
+	height: 150px;
+}
+.con2{
+	width: 50%;
+	float: left;
+	margin: 35px -106px 0px 123px;
+}
+.con4{
+	color: white;
+	text-align: center;
+}
+.con3{
+	width: 50%;
+	float: left;
+	margin: 35px 0px 0px -120px;
+}
